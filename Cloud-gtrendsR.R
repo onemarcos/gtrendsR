@@ -2,10 +2,10 @@ library(gtrendsR)
 
 capi <- gtrends(
   keyword = (c("GCP", "AWS")),
-  geo = "BR",
+  geo = "PT",
   time = "today+5-y",
-  hl = "pt-BR",
-  gprop = c("web", "news", "images", "froogle", "youtube"),
+  hl = "pt-PT",
+  gprop = c("web", "froogle", "youtube"),
   compared_breakdown = FALSE,
   low_search_volume = FALSE,
   cookie_url = "http://trends.google.com/Cookies/NID",
